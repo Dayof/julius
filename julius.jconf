@@ -6,7 +6,7 @@
 ######################################################################
 ### GRAMMAR
 ######################################################################	
--dfa clara.dfa -v clara.dict
+-dfa julius.dfa -v julius.dict
 
 ######################################################################
 ### Speech segment detection by level and zero-cross
@@ -57,7 +57,7 @@
 ### Isolated Word 
 ######################################################################	
 ## Multiple dictionary
-#-w clara.dict 			  	# word dictionary.
+#-w julius.dict 			  	# word dictionary.
 #-wsil sil sil NULL      	# head / tail silence models to be appended.
 
 
